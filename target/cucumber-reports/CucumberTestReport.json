@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Hotels Page in MakemyTrip",
+        "description": "",
+        "id": "search-hotels-in-makemytrip;verify-hotels-page-in-makemytrip",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6536200000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Open Browser",
+            "match": {
+              "location": "HotelList.user_Open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234114500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Randoms place",
+            "match": {
+              "location": "HotelList.click_on_Randoms_place()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 639631500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Hotels Tab",
+            "match": {
+              "location": "HotelList.click_on_Hotels_Tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5540898200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select Mumbai from drop down",
+            "match": {
+              "location": "HotelList.select_Mumbai_from_drop_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61968800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the Hotels Page",
+            "match": {
+              "location": "HotelList.verify_the_Hotels_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 188433100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the search hotels Browser",
+            "match": {
+              "location": "HotelList.close_the_search_hotels_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Searchhotel"
+          }
+        ]
+      }
+    ],
+    "name": "Search Hotels in MakeMyTrip",
+    "description": "",
+    "id": "search-hotels-in-makemytrip",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/qa/features/SearchHotels.feature"
+  }
+]

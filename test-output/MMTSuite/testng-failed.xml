@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [MMTSuite]" parallel="tests">
+  <test thread-count="1" name="MMT Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.runner.TestRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.qa.runner.TestRunner -->
+    </classes>
+  </test> <!-- MMT Test(failed) -->
+</suite> <!-- Failed suite [MMTSuite] -->
